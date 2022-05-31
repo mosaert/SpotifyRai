@@ -1,0 +1,66 @@
+.gradient-background{
+    -fx-background-color: linear-gradient(to right, #360033, #0b8793);
+}
+.container{
+    -fx-background-color:rgba(255,255,255,0.2);
+    -fx-background-radius:10;
+}
+.top-border{
+    -fx-border-color:#ffffff;
+    -fx-border-width:1 0 0 0;
+}
+.upgrade-button{
+    -fx-background-color:rgba(255,255,255,0.2);
+    -fx-background-radius:50;
+    -fx-border-color:#ffffff;
+    -fx-border-radius:50;
+}
+.tab-header-background {
+    -fx-background-color: transparent;
+}
+.tab-label {
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff;
+}
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20;
+    -fx-font-size: 16;
+}
+.scroll-pane > .viewport{
+    -fx-background:transparent;
+    -fx-background-color: transparent;
+}
+.scroll-bar:horizontal{
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+    -fx-background-radius : 0.0;
+    -fx-border-radius :2.0;
+}
+.scroll-bar:horizontal .thumb{
+    -fx-background-color: rgba(255,255,255,0.2);
+}
+.scroll-bar:horizontal .thumb:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+}
+.scroll-bar:vertical{
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+    -fx-background-radius : 0.0;
+    -fx-border-radius :2.0;
+}
+.scroll-bar:vertical .thumb{
+    -fx-background-color: rgba(255,255,255,0.2);
+}
+.scroll-bar:vertical .thumb:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+}
+.split-menu-button {
+    -fx-background-color: transparent;
+}
+.split-menu-button > .label{
+    -fx-background-color:transparent;
+}
+.split-menu-button > .arrow-button{
+    -fx-background-color:transparent;
+}
