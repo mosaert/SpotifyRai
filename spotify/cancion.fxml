@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="200.0" styleClass="container" stylesheets="@../../../estilos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.spotify.CancionController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="portada" fitHeight="183.0" fitWidth="181.0" layoutX="10.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/no-internet-connection-offline-error-web-page-not-loading-black-dinosaur-vector-illustration-119559692.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label fx:id="titulo" prefHeight="21.0" prefWidth="202.0" text="Nombre cancion" textFill="WHITE">
+         <VBox.margin>
+            <Insets left="5.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="artista" prefHeight="21.0" prefWidth="202.0" text="Nombre artista" textFill="WHITE">
+         <VBox.margin>
+            <Insets left="5.0" />
+         </VBox.margin></Label>
+   </children>
+</VBox>

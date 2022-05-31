@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="94.0" prefWidth="702.0" styleClass="container" stylesheets="@../../../estilos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.spotify.ControladorFavo">
+    <left>
+        <ImageView fitHeight="84.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <image>
+                <Image url="@imagenes/no-internet-connection-offline-error-web-page-not-loading-black-dinosaur-vector-illustration-119559692.jpg" />
+            </image>
+            <BorderPane.margin>
+                <Insets left="20.0" />
+            </BorderPane.margin>
+        </ImageView>
+    </left>
+   <center>
+      <VBox alignment="CENTER_LEFT" prefHeight="135.0" prefWidth="701.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="titufavo" prefHeight="58.0" prefWidth="592.0" text="nombre favorita" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="nomfavo" prefHeight="54.0" prefWidth="575.0" text="nombre artista" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
